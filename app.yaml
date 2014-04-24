@@ -1,0 +1,26 @@
+application: git-dkl-training
+version: 3
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static/less/(.*\.less)
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+    Content-Type: text/css
+  static_files: static/less/\1
+  upload: /static/less/(.*\.less)
+- url: /static/(.*)
+  static_files: static/\1
+  upload: static/(.*)
+- url: /main
+  script: main.py
+- url: /phorm
+  script: main.py
+- url: /GCO
+  script: main.py
+- url: /drop/(.*)
+  script: main.py  
+- url: /.*
+  script: wheels.py

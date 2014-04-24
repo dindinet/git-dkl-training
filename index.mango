@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <title>Training Wheels</title> 
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />    
+  <meta name="description" content="Transport template"/> 
+  <meta name="keywords" content="Default Keywords"/> 
+ 
+  <meta http-equiv="imagetoolbar" content="no" /> 
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+    
+  <style type="text/css"> 
+    @import "static/css/easy.css";
+</style> 
+  <!-- <link rel="stylesheet" href="static/css/easy.css" media="screen" type="text/css" charset="utf-8" />--> 
+  <link rel="stylesheet" href="static/css/easyprint.css" media="print" type="text/css" charset="utf-8" /> 
+  
+  <style> 
+      .product-image { border:solid 1px #ccc; }
+      .product-title, .product-price, .product-shipping { font-weight:bold; }
+      .product-description {text-decoration:italic;}
+      .data-cell { padding:0px 50px 0px 10px;border:solid 0px #fff;vertical-align:top}
+      .align-cart { float:right; }
+    #mc_embed_signup{margin-left: 40px;}
+      .override #googlecart-widget-head {background-color:#930;}
+    #googlecart-title {color:#fff;}
+    #googlecart-summary {color:#fff;}
+    img{width:85%;padding:12px;border:solid 1px #ccc;-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.09375) 0px 2px 20px inset;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.09375) 0px 2px 20px inset;
+background: white repeat-x left bottom;}
+  </style>    
+  
+  <script type="text/javascript" src="static/js/jquery.js"></script> 
+  <script type="text/javascript" src="static/js/easy.js"></script> 
+  <script type="text/javascript" src="static/js/main.js"></script> 
+  
+  <script  id='googlecart-script' type='text/javascript' src='https://checkout.google.com/seller/gsc/v2_2/cart.js?mid=803145610746790' integration='jscart-wizard' close-cart-when-click-away="false" post-cart-to-sandbox='true' currency='GBP'></script> 
+  
+</head> 
+<body id="main"> 
+  
+ 
+<div id="container"> 
+ 
+  <div id="header"> 
+          
+  <h1>TRAINING WHEELS</h1> 
+  <p>Google App Engine for the regular Joe</p> 
+ 
+    
+    <ul id="nav"> 
+              
+<li><a href="./index.mango" id="main">MAIN PAGE</a></li> 
+<li><a href="./stage0.mango" id="nav0">STAGE 0</a></li> 
+<li><a href="./stage1.mango" id="nav1">STAGE 1</a></li> 
+<li><a href="./stage2.mango" id="nav2">STAGE 2</a></li> 
+<li><a href="./stage3.mango" id="nav3">STAGE 3</a></li> 
+<li><a href="./stage4.mango" id="nav4">STAGE 4</a></li> 
+<li><a href="http://solidwebfoundations.blogspot.com/" id="blog">NEWS</a></li> 
+<li><a href="./downloads.mango" id="navdown">DOWNLOADS</a></li> 
+ 
+    </ul> 
+    
+  </div> 
+ 
+  <div class="content"> 
+ 
+    <div class="main"> 
+                
+<h2>Welcome to the Training Wheels home page!</h2> 
+ 
+<p> 
+Training Wheels is a simple system, based on the Google App Engine,
+to allow users to build and host great looking homepages in just a few
+easy steps. This very site was built using Training Wheels (yes, I
+eat my own dogfood) and will show you how it's done. You can download
+this example site in the <a href="downloads.djhtml">downloads section</a>.
+</p> 
+ 
+<p> 
+At the top of the page, you will see links to different &quot;stages&quot;.
+These show you the development of this website, from a simple site template
+we got from the Internet to the final result you are seeing here. Have fun!
+</p> 
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('013729701434305426649:xh4nkcuo4p4');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+
+      <img src="http://lh6.googleusercontent.com/-PPDFwKoel4Q/TYIo511I4bI/AAAAAAAAAbs/40PFJmRpi20/Famoso.jpg" />
+    
+    </div> 
+    
+    <div class="secondary"> 
+                
+                <h2>You can't build without the foundations</h2> 
+                <p><a href="http://www.solidwebfoundations.com">Click here for details</a></p> 
+                <p><a href="/main">Contact Us</a></p> 
+                    
+    </div>  
+    
+    <div class="tertiary"> 
+    <!-- Begin MailChimp Signup Form --> 
+    <!--[if IE]>
+    <style type="text/css" media="screen">
+      #mc_embed_signup fieldset {position: relative;}
+      #mc_embed_signup legend {position: absolute; top: -1em; left: .2em;}
+    </style>
+    <![endif]--> 
+    
+    <!--[if IE 7]>
+    <style type="text/css" media="screen">
+      .mc-field-group {overflow:visible;}
+    </style>
+    <![endif]--><script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery-1.2.6.min.js"></script> 
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery.validate.js"></script> 
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery.form.js"></script> 
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/subscribe/xs-js?u=dc52ccff10cb2841bdf8ee5f6&amp;id=81e645c876"></script> 
+    
+    <div id="mc_embed_signup" style="width: 200px;"> 
+    <form action="http://maxgoldhouse.us1.list-manage.com/subscribe/post?u=dc52ccff10cb2841bdf8ee5f6&amp;id=81e645c876" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial;font-size: 12px;"> 
+      <fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #000000;padding-top: 1.5em;margin: .5em 0;background-color: #FFFFFF;color: #333333;"> 
+      <legend style="text-transform: capitalize;font-weight: bold;color: #666666;background: #CCCCCC;padding: .5em 1em;border: 1px solid #000000;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;">Juicy Updates</legend> 
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;"> 
+    <label for="mce-EMAIL" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Address </label> 
+    <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" /> 
+    </div> 
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;"> 
+    <label for="mce-FNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">First Name </label> 
+    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" /> 
+    </div> 
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;"> 
+    <label for="mce-LNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Last Name </label> 
+    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" /> 
+    </div> 
+        <div id="mce-responses" style="float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;"> 
+          <div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #FFEEEE;color: #FF0000;"></div> 
+          <div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #;color: #529214;"></div> 
+        </div> 
+        <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;" /></div> 
+      </fieldset>  
+      <a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a> 
+    </form> 
+    </div> 
+<!--End mc_embed_signup--> 
+    </div>    
+<div id="googlecart-widget" class="align-cart"></div>  
+  </div>  
+  
+  <div id="footer"> 
+    
+Training Wheels brought to you by <a href="http://www.appenginefan.com">appenginefan.com</a>.<br/> 
+This free template was downloaded from 
+<a href="http://www.freewebsitetemplates.com/download.php?template=transport">freewebsitetemplates.com</a> 
+  
+    <p>Made with <a href="http://easyframework.com">Easy</a></p> 
+  </div> 
+ 
+</div> 
+ 
+</body> 
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>{% block title %}Transport template{% endblock %}</title>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />    
+  <meta name="description" content="{% block description %}Transport template{% endblock %}"/>
+  <meta name="keywords" content="{% block keywords %}Default Keywords{% endblock %}"/>
+
+  <meta http-equiv="imagetoolbar" content="no" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="static/css/easy.css" media="screen" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="static/css/easyprint.css" media="print" type="text/css" charset="utf-8" />
+  {% block morecss %}
+  <style>
+      .product-image { border:solid 1px #ccc; }
+      .product-title, .product-price, .product-shipping { font-weight:bold; }
+      .product-description {text-decoration:italic;}
+      .data-cell { padding:0px 50px 0px 10px;border:solid 0px #fff;vertical-align:top}
+      .align-cart { float:right; }
+      .override #googlecart-widget-head {background-color:#930;}
+    #googlecart-title {color:#fff;}
+    #googlecart-summary {color:#fff;}
+  </style>    
+  {% endblock %}
+  <script type="text/javascript" src="static/js/jquery.js"></script>
+  <script type="text/javascript" src="static/js/easy.js"></script>
+  <script type="text/javascript" src="static/js/main.js"></script>
+  {% block jscripting %}
+  <script  id='googlecart-script' type='text/javascript' src='https://checkout.google.com/seller/gsc/v2_2/cart.js?mid=803145610746790' integration='jscart-wizard' close-cart-when-click-away="false" post-cart-to-sandbox='true' currency='GBP'></script>
+  {% endblock %}
+</head>
+<body id="{% block pageid %}home{% endblock %}">
+  
+
+<div id="container">
+
+  <div id="header">
+          {% block head %}
+          
+            {% endblock %}
+    
+    <ul id="nav">
+              {% block navigation %}
+              <li><a href="http://www.freewebsitetemplates.com">MAIN PAGE</a></li>
+              <li><a href="http://www.freewebsitetemplates.com">TRACKING</a></li>
+              <li><a href="http://www.freewebsitetemplates.com">RATES</a></li>
+              <li><a href="http://www.freewebsitetemplates.com">PICK UP</a></li>
+              <li><a href="http://www.freewebsitetemplates.com">SERVICES</a></li>
+              <li><a href="http://www.freewebsitetemplates.com">CONTACT US</a></li>
+              {% endblock %}
+    </ul>
+    
+  </div>
+
+  <div class="content">
+
+    <div class="main">
+                {% block content %}
+                <h2>WELCOME TO OUR TRUCK TRACKING COMPANY</h2>
+        
+                <p>Don't forget to check <a href="http://www.freewebsitetemplates.com">free website templates</a> every day, because we add  a new free website template almost daily.</p>
+          <p>You can remove any link to our websites from this template you're free to use the template without linking back to us.</p>
+                <p>This is just a place holder so you can see how the site would look like.</p>
+
+<p>This is a template designed by free website templates for you for free you can replace all the text by your own text.</p>
+                <div id="features">
+                  <h2>FEATURED SERVICES</h2>
+                  <ul>
+                    <li><a href="http://www.freewebsitetemplates.com">Free Website Templates</a></li>
+          <li><a href="http://www.freewebsitetemplates.com/forum/">The forum</a></li>
+                    <li><a href="http://www.justwebtemplates.com">Just Web Templates</a></li>
+                    <li><a href="http://www.templatebeauty.com">Template Beauty</a></li>
+                    
+                  </ul>
+                  <ul>
+            <li><a href="http://www.templatebeauty.com">Template Beauty</a></li>
+                    <li><a href="http://www.freewebsitetemplates.com">Free Website Templates</a></li>
+          <li><a href="http://www.freewebsitetemplates.com/forum/">The forum</a></li>
+                    <li><a href="http://www.justwebtemplates.com">Just Web Templates</a></li>
+                  </ul>
+                  <div class="clear"> </div>
+                </div>
+                
+                <div id="newsletter">
+                  <h2>NEWSLETTER</h2>
+                  <form action="" method="get" accept-charset="utf-8">
+                    <input type="text" class="text" name="q" value="" id="some_name" />
+                    <input type="submit" value="go">
+                  </form>
+                  <p><a href="http://www.freewebsitetemplates.com">Click here for details</a></p>
+                </div>
+                <div id="events">
+                  <h2>FEATURED EVENTS</h2>
+                  <ul>
+                    <li><a href="http://www.templatebeauty.com">Template Beauty</a></li>
+                    <li><a href="http://www.freewebsitetemplates.com">Free Website Templates</a></li>
+          <li><a href="http://www.freewebsitetemplates.com/forum/">The forum</a></li>
+                    <li><a href="http://www.justwebtemplates.com">Just Web Templates</a></li>
+                  </ul>
+                </div>
+                {% endblock %}    
+    </div>
+    
+    <div class="secondary">
+                {% block downloadbox %}
+                <h2>You can't build without the foundations</h2>
+                <p><a href="http://www.solidwebfoundations.com">Click here for details</a></p>
+                <p><a href="/main">Contact Us</a></p>
+                {% endblock %}    
+    </div>  
+    
+    <div class="tertiary">
+    <!-- Begin MailChimp Signup Form -->
+    <!--[if IE]>
+    <style type="text/css" media="screen">
+      #mc_embed_signup fieldset {position: relative;}
+      #mc_embed_signup legend {position: absolute; top: -1em; left: .2em;}
+    </style>
+    <![endif]--> 
+    
+    <!--[if IE 7]>
+    <style type="text/css" media="screen">
+      .mc-field-group {overflow:visible;}
+    </style>
+    <![endif]--><script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/js/jquery.form.js"></script>
+    <script type="text/javascript" src="http://maxgoldhouse.us1.list-manage.com/subscribe/xs-js?u=dc52ccff10cb2841bdf8ee5f6&amp;id=81e645c876"></script>
+    
+    <div id="mc_embed_signup" style="width: 200px;">
+    <form action="http://maxgoldhouse.us1.list-manage.com/subscribe/post?u=dc52ccff10cb2841bdf8ee5f6&amp;id=81e645c876" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial;font-size: 12px;">
+      <fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #000000;padding-top: 1.5em;margin: .5em 0;background-color: #FFFFFF;color: #333333;">
+      <legend style="text-transform: capitalize;font-weight: bold;color: #666666;background: #CCCCCC;padding: .5em 1em;border: 1px solid #000000;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;">Juicy Updates</legend>
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+    <label for="mce-EMAIL" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Address </label>
+    <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" />
+    </div>
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+    <label for="mce-FNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">First Name </label>
+    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" />
+    </div>
+    <div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
+    <label for="mce-LNAME" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Last Name </label>
+    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 95%;float: left;z-index: 999;" />
+    </div>
+        <div id="mce-responses" style="float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;">
+          <div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #FFEEEE;color: #FF0000;"></div>
+          <div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #;color: #529214;"></div>
+        </div>
+        <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;" /></div>
+      </fieldset>  
+      <a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
+    </form>
+    </div>
+<!--End mc_embed_signup-->
+    </div>    
+<div id="googlecart-widget" class="align-cart"></div>  
+  </div>  
+  
+  <div id="footer">
+    {% block copyright %}
+    &copy; Copyright information goes here. All rights reserved.
+    {% endblock %}  
+    <p>Made with <a href="http://easyframework.com">Easy</a></p>
+  </div>
+
+</div>
+
+</body>
+</html>

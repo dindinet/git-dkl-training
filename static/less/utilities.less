@@ -1,0 +1,227 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Quick floats
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+
+// Toggling content
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+// Visibility
+.invisible {
+  visibility: hidden;
+}
+
+// For Affix plugin
+.affix {
+  position: fixed;
+}
+// Jumbotrons
+//-------------------------------------------------- 
+
+// Base class
+//------------------------- 
+.jumbotron {
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #d1d360; 
+  background: -moz-linear-gradient(top,  #d1d360 0%, #e5e696 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1d360), color-stop(100%,#e5e696)); 
+  background: -webkit-linear-gradient(top,  #d1d360 0%,#e5e696 100%); 
+  background: -o-linear-gradient(top,  #d1d360 0%,#e5e696 100%); 
+  background: -ms-linear-gradient(top,  #d1d360 0%,#e5e696 100%);
+  background: linear-gradient(to bottom,  #d1d360 0%,#e5e696 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d360', endColorstr='#e5e696',GradientType=0 ); 
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+// Link styles (used on .masthead-links as well)
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+// Download button 
+.masthead .btn {
+  margin-top: 20px;
+  padding: 19px 24px;
+  font-size: 24px;
+  font-weight: 200;
+  // redeclare to override the `.jumbotron a` 
+  color: #fff; 
+  border: 0;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+  -webkit-transition: none;
+     -moz-transition: none;
+          transition: none;
+}
+.masthead .btn:hover {
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25);
+}
+.masthead .btn:active {
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+     -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+          box-shadow: inset 0 2px 4px rgba(0,0,0,.1), 0 1px 0 rgba(255,255,255,.1);
+}
+
+
+// Pattern overlay
+//------------------------- 
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+.jumbotron:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .4;
+}
+
+// Masthead (docs home)
+//------------------------- 
+.masthead {
+  padding: 70px 0 80px;
+  margin-bottom: 20;
+  color: #fff;
+}
+.masthead h1 {
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.masthead p {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 1.25;
+}
+
+// Textual links in masthead 
+.masthead-links {
+  margin: 0;
+  list-style: none;
+}
+.masthead-links li {
+  display: inline;
+  padding: 0 10px;
+  color: rgba(255,255,255,.25);
+}
+/* share buttons */
+.post-share-buttons {
+margin-top: .5em;
+vertical-align: middle;
+font-size: 0px !important;
+}
+.share-button {
+background: url(http://lh6.googleusercontent.com/-5nEvfzNAMIo/UHHsADKU8cI/AAAAAAAACqU/SB7uqgqFxtA/s450/share_buttons.jpg) no-repeat left !important;
+width: 30px !important;
+height: 30px !important;
+overflow: hidden !important;
+margin-left: -1px !important;
+position: relative !important;
+}
+a:hover.share-button {
+text-decoration: none !important;
+z-index: 1 !important;
+}
+.share-button-link-text {
+text-align: left !important;
+display: block !important;
+text-indent: -9999px !important;
+}
+.sb-bc { background-position: -420px -90px !important; }
+a:hover.sb-bc { background-position: -420px -30px !important; }
+a:active.sb-bc { background-position: -420px -60px !important; }
+.sb-email { background-position: 0 -90px !important; }
+a:hover.sb-email { background-position: 0 -30px !important; }
+a:active.sb-email { background-position: 0 -60px !important; }
+.sb-blog { background-position: -30px -90px !important; }
+a:hover.sb-blog { background-position: -30px -30px !important; }
+a:active.sb-blog { background-position: -30px -60px !important; }
+.sb-twitter { background-position: -60px -90px !important; }
+a:hover.sb-twitter { background-position: -60px -30px !important; }
+a:active.sb-twitter { background-position: -60px -60px !important; }
+.sb-facebook { background-position: -90px -90px !important; }
+a:hover.sb-facebook { background-position: -90px -30px !important; }
+a:active.sb-facebook { background-position: -90px -60px !important; }
+.sb-orkut { background-position: -120px -90px !important; }
+a:hover.sb-orkut { background-position: -120px -30px !important; }
+a:active.sb-orkut { background-position: -120px -60px !important; }
+.sb-pinterest { background-position: -150px -90px !important; }
+a:hover.sb-pinterest { background-position: -150px -30px !important; }
+a:active.sb-pinterest { background-position: -150px -60px !important; }
+.sb-stumble { background-position: -180px -90px !important; }
+a:hover.sb-stumble { background-position: -180px -30px !important; }
+a:active.sb-stumble { background-position: -180px -60px !important; }
+.sb-linkedin { background-position: -210px -90px !important; }
+a:hover.sb-linkedin { background-position: -210px -30px !important; }
+a:active.sb-linkedin { background-position: -210px -60px !important; }
+.sb-hc { background-position: -240px -90px !important; }
+a:hover.sb-hc { background-position: -240px -30px !important; }
+a:active.sb-hc { background-position: -240px -60px !important; }
+.sb-gplus { background-position: -270px -90px !important; }
+a:hover.sb-gplus { background-position: -270px -30px !important; }
+a:active.sb-gplus { background-position: -270px -60px !important; }
+.sb-rss { background-position: -390px -90px !important; }
+a:hover.sb-rss { background-position: -390px -30px !important; }
+a:active.sb-rss { background-position: -390px -60px !important; }
+.sb-link { background-position: -360px -90px !important; }
+a:hover.sb-link { background-position: -360px -30px !important; }
+a:active.sb-link { background-position: -360px -60px !important; }
+/* postal styles */
+.footer{color: #666;background-color: whitesmoke; border-top: 1px solid #ccc;padding: 50px 0;min-height: 400px;}
+.xfooter div{background-color: white;border: 1px solid red;}
+.footer .container{width: 1250px;}
+.fpageblock{padding:10px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; xbackground-color: @white;-moz-box-shadow:0px 0px 4px 1px #777777;
+-webkit-box-shadow:0px 0px 4px 1px #777777;
+box-shadow:0px 0px 4px 1px #777777;}
+.date-header span {display:inline-block; font-size:0.8em; color: @red; padding: 0.2em 0 0.5em 0;letter-spacing: 4px;margin: inherit;}  
